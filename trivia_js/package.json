@@ -1,0 +1,20 @@
+{
+  "name": "trivia_js",
+  "version": "0.0.0",
+  "description": "Test with node.js =====================",
+  "main": "game.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shokunin-community/trivia_js.git"
+  },
+  "author": "Fernando Freire <thenano@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shokunin-community/trivia_js/issues"
+  },
+  "homepage": "https://github.com/shokunin-community/trivia_js#readme"
+}
