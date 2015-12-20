@@ -15,11 +15,11 @@ public class GameRunner {
 		aGame.add("Chet");
 		aGame.add("Pat");
 		aGame.add("Sue");
-		
-		Random rand = new Random();
-	
+
+		Random rand = (args.length >= 1) ? new Random(Integer.parseInt(args[0])) : new Random();
+
 		do {
-			
+
 			aGame.roll(rand.nextInt(5) + 1);
 			
 			if (rand.nextInt(9) == 7) {
@@ -27,8 +27,6 @@ public class GameRunner {
 			} else {
 				notAWinner = aGame.wasCorrectlyAnswered();
 			}
-			
-			
 			
 		} while (notAWinner);
 		
