@@ -1,4 +1,4 @@
-Shokunin Community
+Software Shokunin Community
 ==================
 
 Refactoring Legacy Code
