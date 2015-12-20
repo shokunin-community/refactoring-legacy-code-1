@@ -1,29 +1,16 @@
-INSTALLATION INSTRUCTIONS
-=====================
+Installation Instructions
+===============
 
-Open your docker terminal by running the following command:
-``
+Open your docker terminal by running the following command in a terminal:
+`boot2docker up` or by running the `docker Quickstart Terminal`
 
-cd into this directory from docker
+cd into this repository
 
-Run the following command to pull all containers and run the program:
-``
+Run the following command which will pull down the required docker containers and run the program:
+`docker run -it -v "$PWD":/usr/src/app softwareshokunin/trivia_js`
 
-Run the follwing command when you're ready to start coding - it listens for code changes and continuously runs your tests:
-``
+Run the following command to start guard listening for any code changes:
+`docker run -it -v "$PWD":/usr/src/app softwareshokunin/trivia_js jasmine`
 
-Now you're ready to rock! :)
+Now you're ready to code :)
 
-
-
-
-
-Install the jasmine-node plugin from https://github.com/mhevery/jasmine-node
-
-	npm install jasmine-node -g
-
-And execute:
-
-	jasmine-node .
-
-Any test source matching the pattern *.spec.js will be executed.
