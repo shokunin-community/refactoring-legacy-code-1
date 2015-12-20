@@ -1,21 +1,16 @@
-Test Frameworks
+Installation Instructions
 ===============
 
-This repo has configuration and example files for both RSpec and minitest. The
-RSpec files are in `/spec` and the minitest files are in `/test`.
+Open your docker terminal by running the following command in a terminal:
+`boot2docker up`
 
-First install both of the gems using Bundler (don't worry, you'll only be
-using one at a time):
+cd into this repository
 
-    bundle install
+Run the following command which will pull down the required docker containers and run the program:
+`docker run -it -v "$PWD":/usr/src/app shokunincommunity/trivia_ruby`
 
-You can run the RSpec tests using:
+Run the following command to start guard listening for any code changes:
+`docker run -it -v "$PWD":/usr/src/app shokunincommunity/trivia_ruby guard -p`
 
-    rake spec
+Now you're ready to code :)
 
-And the minitest test using:
-
-    rake minitest
-
-Please modify any and all of these files to suit your preferences; these are
-simply meant as a starting point!
