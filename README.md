@@ -25,4 +25,4 @@ You will need the following installed on your machine:
 
 ### Installation
 
-You will need to pull down some docker images before the session, see the READMEs in the ruby and js folders...
+Clone this repository!  You will then need to pull down some docker images before the session, see the READMEs in the ruby and js folders... MAKE SURE YOU DO THIS BEFORE THE SESSION!
