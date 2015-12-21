@@ -5,7 +5,7 @@
   "main": "game.js",
   "scripts": {
     "test": "jasmine",
-    "start": "node game.js"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
