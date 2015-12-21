@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/shokunin-community/trivia_js/issues"
   },
-  "homepage": "https://github.com/shokunin-community/trivia_js#readme"
+  "homepage": "https://github.com/shokunin-community/trivia_js#readme",
+  "devDependencies": {
+    "random-seed": "^0.3.0"
+  }
 }
