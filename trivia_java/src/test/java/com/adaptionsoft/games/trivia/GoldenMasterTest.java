@@ -45,7 +45,7 @@ public class GoldenMasterTest {
 
         for(int i = 0; i < SPREAD; i++) {
             String[] arguments = new String [1];
-            arguments[0] = Integer.toString(SPREAD);
+            arguments[0] = Integer.toString(i);
             GameRunner.main(arguments);
         }
     }
