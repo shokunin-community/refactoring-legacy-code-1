@@ -14,3 +14,4 @@ Run the following command to start guard listening for any code changes:
 
 Now you're ready to code :)
 
+This repo contains a branch called seams which contains an example of seam in javascript (and also a golden master test).
